@@ -58,26 +58,26 @@ _Below is an example of how you can run the code (Assuming you have node install
 
 ### Global Execution context for the code executed : 
 #### 1. Phase: Creation
-window: global object__
-this: window__
-number1: undefined__
-number2: undefined__
-sum: fn()__
+window: global object\
+this: window\
+number1: undefined\
+number2: undefined\
+sum: fn()\
 
 #### 2. Phase: Execution
-window: global object__
-this: window__
-number1: 10__
-number2: 20__
-sum: fn()__
+window: global object\
+this: window\
+number1: 10\
+number2: 20\
+sum: fn()\
 
 ### Function Execution context for the code executed : 
 #### 1. Phase: Creation
-this: window__
-n1: undefined__
-n2: undefined__
+this: window\
+n1: undefined\
+n2: undefined\
 
 #### 2. Phase: Execution
-this: window__
-n1: 10__
-n2: 20__
+this: window\
+n1: 10\
+n2: 20\
