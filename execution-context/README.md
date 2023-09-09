@@ -62,22 +62,22 @@ window: global object\
 this: window\
 number1: undefined\
 number2: undefined\
-sum: fn()\
+sum: fn()
 
 #### 2. Phase: Execution
 window: global object\
 this: window\
 number1: 10\
 number2: 20\
-sum: fn()\
+sum: fn()
 
 ### Function Execution context for the code executed : 
 #### 1. Phase: Creation
 this: window\
 n1: undefined\
-n2: undefined\
+n2: undefined
 
 #### 2. Phase: Execution
 this: window\
 n1: 10\
-n2: 20\
+n2: 20
