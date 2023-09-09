@@ -27,21 +27,21 @@ _Below is an example of how you can run the code (Assuming you have node install
 ### Output of the code
 
    ```sh
-   Car name :- BMW\
-   Car model :- Q8\
-   Total gears :- 6\
-   Maximum speed :- 400 KM\
+   Car name :- BMW
+   Car model :- Q8
+   Total gears :- 6
+   Maximum speed :- 400 KM
    ```
 
 ### Call stack with functions in order:
 -----------------------------------------------------\
-| Function getCarTopSpeed Context <- (top of stack)  |\
+Function getCarTopSpeed Context <- (top of stack)    \
 -----------------------------------------------------\
-| Function getCarGearCount Context                   |\
+Function getCarGearCount Context                     \
 -----------------------------------------------------\
-| Function getCarModel Context                       |\
+Function getCarModel Context                         \
 -----------------------------------------------------\
-| Function getCarName Context                        |\
+Function getCarName Context                          \
 -----------------------------------------------------\
-| Global Execution Context <- (bottom of stack)      |\
+Global Execution Context <- (bottom of stack)        \
 -----------------------------------------------------\
