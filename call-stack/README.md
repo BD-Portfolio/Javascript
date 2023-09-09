@@ -33,7 +33,7 @@ _Below is an example of how you can run the code (Assuming you have node install
    Maximum speed :- 400 KM
    ```
 
-### Call stack with functions in order:
+### Call stack with functions in order :-
 -----------------------------------------------------\
 Function getCarTopSpeed Context <- (top of stack)    \
 -----------------------------------------------------\
@@ -44,4 +44,4 @@ Function getCarModel Context                         \
 Function getCarName Context                          \
 -----------------------------------------------------\
 Global Execution Context <- (bottom of stack)        \
------------------------------------------------------\
+-----------------------------------------------------
