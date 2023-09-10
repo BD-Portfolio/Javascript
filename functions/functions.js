@@ -19,13 +19,23 @@ let arrowFunction = () => {
 
 arrowFunction();
 
-// First Class Function or High Order function
-// A function that can be used as a value or passed as a parameter or be returned through any function is called First class function.
+// First Class Function
+// A function that can be used as a value or takes function as a parameter or returns any function is called First class function
 function firstClassFn(firstClassFnParam) {
     return firstClassFnParam();
 }
 
-firstClassFn((function () { console.log("First class function") }))
+firstClassFn((function () { console.log("First class function called...") }));
+
+// High Order function
+// A function that takes a function as a parameter or returned any function is called high order function
+function highOrderFn() {
+    return function(){
+        console.log("High order function called...");
+    };
+}
+
+highOrderFn();
 
 // Function Statement or Function Declaration
 // Normally writing a function is only called as function statement or declaration
