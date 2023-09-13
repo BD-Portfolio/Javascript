@@ -8,6 +8,7 @@ This is an example how closure works.
 2. Closure helps in binding a function to its outer boundary and is created automatically whenever a function is created.
 3. A function scope’s ability to access variables from the parent scope is known as lexical scope. 
 4. We refer to the parent function’s lexical binding of the child function as “lexically binding.”
+5. In closure the inner function has all the references (not the value) of the outer function which inner function can use any time. 
 
 ### Test code
 
