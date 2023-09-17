@@ -10,7 +10,7 @@ This is an example how callback function works.
 5. Asynchronous operations are operations that take a significant amount of time to complete, such as network requests, file I/O, and database queries. 
 6. If these operations were executed synchronously, the program would freeze and wait for the operation to complete before continuing. 
 7. This can lead to a poor user experience, as the program would appear unresponsive.
-8. Callbacks allow you to continue executing code while the operation is being executed in the background.s
+8. Callbacks allow you to continue executing code while the operation is being executed in the background.
 
 ### Test code
 
